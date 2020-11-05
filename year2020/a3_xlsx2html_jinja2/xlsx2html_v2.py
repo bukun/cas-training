@@ -12,6 +12,7 @@ sheet = wb.active
 
 
 html_str = []
+
 for i in range(2, sheet.max_row + 1):
     img_title = sheet.cell(row=i, column=1).value
     img_misc = sheet.cell(row=i, column=2).value

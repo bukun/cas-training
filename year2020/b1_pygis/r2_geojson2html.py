@@ -1,6 +1,6 @@
 import folium
 
-m = folium.Map(location=[35, 105], width=750, height=500)
+m = folium.Map(location=[35, 105], width=750, height=500, zoom_start = 3)
 
 
 from folium import GeoJson

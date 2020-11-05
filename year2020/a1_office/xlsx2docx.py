@@ -33,5 +33,5 @@ def foo2():
 
 
 if __name__ == '__main__':
-    # foo1()
+    foo1()
     foo2()

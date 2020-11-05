@@ -2,7 +2,7 @@ from osgeo import ogr
 import gdal
 import os
 
-shapefile = 'AFG_adm2_v165.shp'
+shapefile = 'shps/AFG_adm2_v165.shp'
 outjson = 'xx_gson.json'
 
 shp_ds = ogr.Open(shapefile)

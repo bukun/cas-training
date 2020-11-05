@@ -3,7 +3,7 @@ import re
 
 
 def replace_base_map():
-    pattern = re.compile(r'https(.*?)jpg')
+    pattern = re.compile(r'https(.*?)png')
 
     cnt = open('xx_picinfo202008.html', encoding="utf-8")
     cn = cnt.read()
